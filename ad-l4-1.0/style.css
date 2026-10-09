@@ -1,5 +1,37 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6ede2;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #3b2416;
+}
+
+.nav a {
+  flex: 1;
+  text-align: center;
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid #7f4f24;
+}
+
+.nav a:hover {
+  background-color: #7f4f24;
+}
+
+main {
+  min-height: 70vh;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #3b2416;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
