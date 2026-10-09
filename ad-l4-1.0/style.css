@@ -35,3 +35,14 @@ main {
   text-align: center;
   padding: 20px;
 }
+.post {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.texto { flex: 1; }
+.post img { width: 40%; }
